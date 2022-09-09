@@ -1,0 +1,7 @@
+export { default as Main } from './Main/index'
+export { default as AboutCarousel } from './AboutCarousel/index'
+export { default as ProfileImage } from './ProfileImage/index'
+export { default as Skills } from './Skills/index'
+export { default as Experience } from './Experience/index'
+export { default as ProjectCard } from './ProjectCard/index'
+export { default as ContactForm } from './ContactForm/index'

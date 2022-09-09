@@ -1,0 +1,99 @@
+.project-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-bottom: 3%;
+}
+
+.project-card{
+    margin-top: 5%;
+    border-radius: 5%;
+    background-color: rgba(0,0,0,0.03);
+    /* border-style: solid; */
+    /* border-color: #FC9177; */
+    /* border-color: #80D48B; */
+    padding-top: 4px;
+    padding-bottom: 4px;;
+    width: 40%;
+    margin-left: 3%;
+}
+
+.project-card:hover{
+    /* background-color: #FC9177; */
+    background-color: #80D48B;
+}
+
+.project-card > img {
+    border-radius: 3%;
+    width: 80%; 
+    height: 50%;
+    margin-top: 5%;
+}
+
+.project-title{
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+/* .project-card > img{
+    margin: auto;
+} */
+
+.project-card > h2{
+    margin-top: 2%;
+    /* color: #FC9177 */
+    /* position: sticky; */
+}
+.project-card > p{
+    width: 95%;
+    margin: auto;
+}
+
+.btn-div > button{
+    margin: 1%;
+    margin-bottom: 20px;
+    width: 20%;
+    /* position: absolute; */
+    /* bottom: 0; */
+}
+
+.github-btn{
+    border-style: none;
+    border-radius: 10%;
+    background-color: #FC9177;
+}
+
+.live-btn{
+    border-style: none;
+    border-radius: 10%;
+    background-color: #FDD06D;
+}
+
+*{
+    justify-content: center;
+}
+
+/* --------------- Media Queries (small devices) ---------------- */
+@media screen and (max-width: 780px) {
+    .project-card{
+        margin-top: 5%;
+        border-radius: 10%;
+        /* background-color: rgba(0,0,0,0.5); */
+        padding-top: 4px;
+        padding-bottom: 4px;;
+        width: 80%;
+        margin-left: 3%;
+    }
+
+    *{
+        justify-content: center;
+    }
+  }
+
+  @media screen and (max-width: 620px) {
+    .project-card > p{
+        display: none;
+    }
+  }
