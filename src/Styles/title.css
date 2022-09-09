@@ -39,14 +39,14 @@
 }
 
 .cv-link{
-    border-style: solid;
-    border-radius: 8%;
+    /* border-style: solid; */
+    border-radius: 3%;
     text-align: center;
     /* background-color: #80D48B; */
     background-color: #FC9177;
     color: white;
-    width: 15%;
-    height: 100%;
+    width: 20%;
+    height: 50%;
 }
 
 .title-bar-1{
