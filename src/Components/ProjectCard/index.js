@@ -10,8 +10,8 @@ export default function ProjectCard({project}) {
         <h2>{project.title}</h2>
         <p>{project.description}</p>
         <div className='btn-div'>
-            <button className="github-btn"><a src={project.githubLink}></a>Github</button>
-            <button className="live-btn"><a src={project.link}></a>Live</button>
+            <button className="github-btn"><a href={project.githubLink}>Github</a></button>
+            <button className="live-btn"><a href={project.link}>Link</a></button>
         </div>
     </div>
   )

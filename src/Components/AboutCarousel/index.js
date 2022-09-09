@@ -9,7 +9,7 @@ function AboutCarousel() {
     <>
     <div></div>
     <div></div>
-    <Container className="mt-100">
+    <Container className="">
       <Carousel variant="dark">
         <Carousel.Item interval="30000">
           <ProfileImage />

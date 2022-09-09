@@ -12,12 +12,16 @@ export default function ProfileImage() {
             <img className="profile-image" src={Profile} alt=""></img>
         </div>
         <div className="profile-image-text">
+
+
+            <p>Hey! I'm Vincent, a digital marketer and aspiring software developer. My professional experiences to date were the key motivator for giving software development a go. As a person who aspires to perform to a high standard in any role I take on, the prospect of automating workflows through technology to maximize my impact was something that excited me, motivated me and gave me the impetus to improve my coding skills in an intense 13 week bootcamp with Futureproof.</p>
+            <br></br>
             
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            <p>What was just seen as a method of improving my performance on the job, turned into a realisation that technology was a career path that not only could I commit to, but had an aptitude for. Working in agile teams delivering product has been some of the most exciting, stretching and fulfilling times I've had professionally and I'm very eager to enter into a commercial context where I can further develop my skills.</p>
 
-            Previously, I worked at Works Applications, Singapore as a Software Engineer, where I worked on delivering libraries, microservices and distributed multi-tenant architecture to thousands of developers inside the company who utilized them to build various products for our customers. Aside from work, I am also an open-source enthusiast and have created projects that were listed in GitHub trending.
+            <br></br>
+            <p>If asked I would say that my strengths and interests are in stiching together the functionality between the front and backend. Points of development that I'm currently looking at are project planning and optimising project file structures to prevent redundancies in my codebase (which tend to emerge when you have to finish projects in 1 week sprints!)</p>
 
-            Aside from work, I am also an open-source enthusiast and have created projects that were listed in GitHub trending.</p>
         </div>
         </div>
     </div>
