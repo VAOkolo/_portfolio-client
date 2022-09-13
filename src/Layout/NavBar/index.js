@@ -10,7 +10,7 @@ export default function NavBar() {
     <>
     <Navbar sticky="top">
       <Container>
-        <Navbar.Brand href="#home" className="d-inline-block align-top">
+        <Navbar.Brand href="/" className="d-inline-block align-top">
           <img src={Logo}
           width="25%">
           </img>
