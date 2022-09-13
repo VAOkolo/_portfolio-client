@@ -22,6 +22,12 @@
     justify-content: space-around;
 }
 
+.skills-container > div > ul > li{
+    list-style: none;
+}
+
 .experience-container > ul > li{
     list-style: none;
 }
+
+

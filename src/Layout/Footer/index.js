@@ -4,7 +4,8 @@ import Navbar from 'react-bootstrap/Navbar';
 
 export default function Footer() {
   return (
-    <Navbar position="relative">
+    // <Navbar position="relative">
+    <Navbar fixed="bottom">
       <Container className="justify-content-center">
           <Navbar.Text className="m-auto">© 2022 Vincent Okolo, Inc</Navbar.Text>
         <Navbar.Toggle />
